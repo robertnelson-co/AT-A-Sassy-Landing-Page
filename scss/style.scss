@@ -1,4 +1,6 @@
 
+@use 'vars' as vars; 
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,7 +8,7 @@
 }
 
 body {
-  background-color: $light-color;
+  background-color: vars.$light-color;
   font-family: $font-stack;
   line-height: 1;
 }
