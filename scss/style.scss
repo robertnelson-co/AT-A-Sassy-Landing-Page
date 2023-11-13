@@ -2,6 +2,7 @@
 @use 'vars' as vars; 
 @use 'utilities';
 @use 'btnConfig';
+@use 'config';
 
 * {
   box-sizing: border-box;
@@ -11,7 +12,7 @@
 
 body {
   background-color: vars.$light-color;
-  font-family: $font-stack;
+  font-family: config.$font-stack;
   line-height: 1;
 }
 
@@ -24,6 +25,10 @@ a {
 }
 
 .hero {
+  background-color: config.$primary-color;
+  color: config.$light-color;
+  height: 600px;
+
   // This is where the bulk of the SCSS styling needs to be done
 
   // Take a look at the other files we've built already. How can they be useful here?
