@@ -57,6 +57,30 @@ a {
   color: #FFC300;
   height: 600px;
 }
+.hero nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero nav ul {
+  display: flex;
+  list-style-type: none;
+}
+.hero nav li {
+  padding: 17px;
+}
+.hero-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+.hero-content img {
+  width: 40%;
+}
+.hero-content h1 {
+  font-size: 40px;
+}
 
 .m-1 {
   margin: 1rem;
